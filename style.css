@@ -439,6 +439,12 @@ body {
 }
 
 @media (max-width: 500px) {
+  body {
+    overflow-y: visible;
+  }
+  .content {
+    height: 100%;
+  }
   .nav {
     justify-content: space-between;
     grid-template-columns: 30% 30%;
@@ -489,4 +495,33 @@ body {
   .video .detail .impressions span {
     font-size: 12px;
   }
+
+
+  .mobile-down-nav {
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    position: fixed;
+    bottom: 0;
+    background: var(--White);
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  .mobile-down-nav .bar-down {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 12px;
+    padding: 15px;
+    align-items: center;
+    justify-content: center;
+  }
+  .mobile-down-nav .bar-down i {
+    font-size: 1.5rem;
+  }
+  .content {
+    width: 100%;
+    overflow: hidden;
+  }
+
 }
