@@ -50,7 +50,7 @@ fetch(url, options)
               <a href="#" class="detail-cont">
                 <img src="files/unnamed(3).jpg" alt="img" />
                 <div class="title">
-                  <span>Title</span>
+                  <span>${title} </span>
                   <div class="impressions">
                     <span
                       >Omah Lay
